@@ -17,6 +17,10 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = True   # ✅ easiest for now
 
+CORS_ALLOWED_ORIGINS = [
+    "https://your-username.github.io"
+]
+
 
 INSTALLED_APPS = [
     'corsheaders',
