@@ -17,8 +17,11 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = True   # ✅ easiest for now
 
+# CORS_ALLOWED_ORIGINS = [
+#     "https://anishaa28.github.io/loanledger_Jerin"
+# ]
 CORS_ALLOWED_ORIGINS = [
-    "https://anishaa28.github.io/loanledger_Jerin"
+    "https://anishaa28.github.io"
 ]
 
 
