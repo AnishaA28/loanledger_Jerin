@@ -110,3 +110,7 @@ xdg-open frontend/index.html
 - Toast notifications for all actions
 - Responsive layout (mobile + desktop)
 - Loading skeletons
+
+ xdg-open index.html  
+ Opening in existing browser session.
+
